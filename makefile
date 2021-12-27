@@ -4,7 +4,7 @@ echo "Title: Guessing Game" > README.md
 echo "" >> README.md
 
 CURRENTDATETIME=$(date)
-echo "Current DateTime: $CURRENTDATETIME" >> README.md
+echo "Date and Time Generated: $CURRENTDATETIME" >> README.md
 echo "" >> README.md
 
 NLINES=$(wc -l guessinggame.sh)
